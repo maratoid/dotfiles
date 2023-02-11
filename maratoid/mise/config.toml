@@ -1,0 +1,8 @@
+[tools]
+awscli = { version = "latest", symlink_bins = "true" }
+cargo-binstall = "latest"
+go = "1.26"
+krew = "latest"
+kubectl = "latest"
+rust = "latest"
+just = "latest"

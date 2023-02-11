@@ -1,0 +1,65 @@
+packages:
+  manual:
+    # - "curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh"
+  brews:
+    - coreutils
+    - moreutils
+    - findutils
+    - wget
+    - curl
+    - bfg
+    - binutils
+    - cifer
+    - dns2tcp
+    - fcrackzip
+    - foremost
+    - hydra
+    - john
+    - knock
+    - netpbm
+    - libpq
+    - nmap
+    - pngcheck
+    - socat
+    - sqlmap
+    - tcpflow
+    - tcpreplay
+    - tcptraceroute
+    - ucspi-tcp
+    - xpdf
+    - xz
+    - ack
+    - exiv2
+    - git
+    - gs
+    - lynx
+    - p7zip
+    - rlwrap
+    - ssh-copy-id
+    - tree
+    - vbindiff
+    - zopfli
+    - gnu-tar
+    - grep
+    - gnu-sed
+    - gnu-getopt
+    - mise
+    - just
+  casks:
+    - docker-desktop
+    - appcleaner
+    - firefox
+    - visual-studio-code
+    - sublime-merge 
+    - ghostty
+    - caffeine
+    - launchbar
+    - discord
+    - slack
+  mise:
+    - go@1.26
+    - awscli
+    - kubectl
+    - krew
+    - cargo-binstall
+    - rust

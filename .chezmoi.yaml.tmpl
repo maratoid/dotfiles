@@ -1,0 +1,9 @@
+sourceDir: "{{ .chezmoi.homeDir }}/.local/share/chezmoi/{{ .chezmoi.username }}"
+add:
+  encrypt: true
+git:
+  autoPush: true
+encryption: age
+age:
+  identity: "{{ .chezmoi.homeDir }}/.config/chezmoi/age/keys.txt"
+  recipientsFile: "{{ .chezmoi.homeDir }}/.config/chezmoi/age/recipient.txt"
