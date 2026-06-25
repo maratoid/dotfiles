@@ -48,7 +48,6 @@ packages:
   casks:
     - docker-desktop
     - appcleaner
-    - firefox
     - visual-studio-code
     - sublime-merge
     - ghostty
@@ -61,6 +60,7 @@ packages:
     - go@1.26
     - awscli
     - kubectl
+    - gcloud
     - krew
     - cargo-binstall
     - rust
