@@ -61,6 +61,6 @@ packages:
     - awscli
     - kubectl
     - gcloud
-    - krew
     - cargo-binstall
     - rust
+    - "krew:tree"

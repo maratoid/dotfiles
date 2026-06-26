@@ -50,7 +50,7 @@ packages:
     - appcleaner
     - firefox
     - visual-studio-code
-    - sublime-merge 
+    - sublime-merge
     - ghostty
     - caffeine
     - launchbar
@@ -60,6 +60,6 @@ packages:
     - go@1.26
     - awscli
     - kubectl
-    - krew
     - cargo-binstall
     - rust
+    - "krew:tree"

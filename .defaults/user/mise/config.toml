@@ -5,8 +5,6 @@ krew = "https://github.com/soupglasses/mise-krew"
 awscli = { version = "latest", symlink_bins = "true" }
 cargo-binstall = "latest"
 go = "1.26"
-krew = "latest"
-"krew:tree" = "latest"
 kubectl = "latest"
 rust = "latest"
 just = "latest"
