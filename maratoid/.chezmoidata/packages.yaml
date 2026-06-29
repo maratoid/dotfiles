@@ -2,65 +2,69 @@ packages:
   manual:
     # - "curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh"
   brews:
-    - coreutils
-    - moreutils
-    - findutils
-    - wget
-    - curl
+    - ack
     - bfg
     - binutils
     - cifer
+    - coreutils
+    - curl
     - dns2tcp
+    - exiv2
     - fcrackzip
+    - findutils
     - foremost
+    - git
+    - gnu-getopt
+    - gnu-sed
+    - gnu-tar
+    - grep
+    - gs
     - hydra
     - john
+    - just
     - knock
-    - netpbm
     - libpq
+    - lynx
+    - mise
+    - moreutils
+    - netpbm
     - nmap
+    - p7zip
     - pngcheck
+    - rlwrap
     - socat
     - sqlmap
+    - ssh-copy-id
     - tcpflow
     - tcpreplay
     - tcptraceroute
+    - tree
     - ucspi-tcp
+    - vbindiff
+    - wget
     - xpdf
     - xz
-    - ack
-    - exiv2
-    - git
-    - gs
-    - lynx
-    - p7zip
-    - rlwrap
-    - ssh-copy-id
-    - tree
-    - vbindiff
     - zopfli
-    - gnu-tar
-    - grep
-    - gnu-sed
-    - gnu-getopt
-    - mise
-    - just
   casks:
-    - docker-desktop
     - appcleaner
-    - visual-studio-code
-    - sublime-merge
-    - ghostty
     - caffeine
-    - launchbar
+    - caldigit-docking-utility
+    - caldigit-thunderbolt-charging
+    - caldigit-usb-hub-support-driver
     - discord
+    - docker-desktop
+    - ghostty
+    - launchbar
     - slack
+    - sublime-merge
+    - visual-studio-code
     - zoom
   mise:
-    - go@1.26
-    - awscli
-    - kubectl
-    - gcloud
-    - cargo-binstall
-    - rust
     - "krew:tree"
+    - awscli
+    - cargo-binstall
+    - dagger
+    - gcloud
+    - go@1.26
+    - kubectl
+    - rust
