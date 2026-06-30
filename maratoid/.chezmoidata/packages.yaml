@@ -61,6 +61,8 @@ packages:
     - zoom
   mise:
     - "krew:tree"
+    - "krew:modify-secret"
+    - "krew:ktop"
     - awscli
     - cargo-binstall
     - dagger
