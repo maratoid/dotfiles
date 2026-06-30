@@ -3,6 +3,8 @@ packages:
     # - "curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh"
   brews:
     - ack
+    - bash
+    - bash-completion@2
     - bfg
     - binutils
     - cifer
