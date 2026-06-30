@@ -64,6 +64,7 @@ packages:
     - awscli
     - cargo-binstall
     - dagger
+    - fzf
     - gcloud
     - go@1.26
     - kubectl
